@@ -1,0 +1,11 @@
+@_05_HostAddress = http://localhost:5104
+
+GET {{_05_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{_05_HostAddress}}/todos/1
+Accept: application/json
+
+###
