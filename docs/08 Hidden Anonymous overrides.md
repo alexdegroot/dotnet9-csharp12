@@ -1,0 +1,2 @@
+# Hidden Anonymoys Controller overrides
+Especially in larger projects, a common issue is that controller inherit attributes from higher up. When this is in the authentication space, .NET now has a few new build warnings, which warn you against this.
